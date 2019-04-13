@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Project from "./projects-data";
 
 class App extends Component {
+  state = {
+    project: Project
+  }
+
   render() {
     return (
       <div className="App">
