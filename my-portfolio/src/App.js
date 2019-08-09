@@ -1,20 +1,39 @@
 import React, { Component } from 'react';
-
 import './App.css';
-import Project from "./projects-data";
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+// import * as ReactMDL from 'react-mdl';
+
 
 class App extends Component {
   state = {
-    project: Project
+    
   }
 
   render() {
     return (
-     <div>
-       <h1>hello world
-         
-       </h1>
-     </div>
+      <div className="big-content">
+        <Layout>
+            <Header title="Hello World" scroll>
+                <Navigation>
+                    <a href="/">Link</a>
+                    <a href="/">Link</a>
+                    <a href="/">Link</a>
+                    <a href="/">Link</a>
+                </Navigation>
+            </Header>
+            <Drawer title="Title">
+                <Navigation>
+                    <a href="/">Link</a>
+                    <a href="/">Link</a>
+                    <a href="/">Link</a>
+                    <a href="/">Link</a>
+                </Navigation>
+            </Drawer>
+            <Content>
+                <div className="content" />
+            </Content>
+        </Layout>
+    </div>
     );
   }
 }
