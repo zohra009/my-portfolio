@@ -1,27 +1,22 @@
 import React, { Component } from 'react';
 import './App.css';
-import "react-mdl/extra/material.js";
+// import "react-mdl/extra/material.js";
 import {
-  Drawer,
-  Navigation,
-  Header,
-  Textfield,
-  Layout,
-  Content
-} from "react-mdl";
+    Drawer,
+    Navigation,
+    Header,
+    Layout,
+    Content
+  } from "react-mdl";
 
 
 class App extends Component {
- componentDidMount() {
-
- }
 
   render() {
     return (
-    
-      <div className="big-content">
+      <div className="demo-big-content">
         <Layout>
-            <Header title="Hello World" scroll>
+            <Header title="Title" scroll>
                 <Navigation>
                     <a href="/">Link</a>
                     <a href="/">Link</a>
@@ -38,7 +33,7 @@ class App extends Component {
                 </Navigation>
             </Drawer>
             <Content>
-                <div className="content" />
+                <div className="page-content" />
             </Content>
         </Layout>
     </div>
