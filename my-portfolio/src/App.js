@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './App.css';
 // import "react-mdl/extra/material.js";
 import {
-    Drawer,
     Navigation,
     Header,
+    Drawer,
     Layout,
     Content
   } from "react-mdl";
@@ -14,10 +14,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="demo-big-content">
+      <div className="big-content">
         <Layout>
             <Header title="Hello World" scroll>
                 <Navigation>
+                  
                     <a href="/">Link</a>
                     <a href="/">Link</a>
                     <a href="/">Link</a>
@@ -26,6 +27,7 @@ class App extends Component {
             </Header>
             <Drawer title="Title">
                 <Navigation>
+                
                     <a href="/">Link</a>
                     <a href="/">Link</a>
                     <a href="/">Link</a>
@@ -33,7 +35,7 @@ class App extends Component {
                 </Navigation>
             </Drawer>
             <Content>
-                <div className="page-content" />
+                <div className="content" />
             </Content>
         </Layout>
     </div>
