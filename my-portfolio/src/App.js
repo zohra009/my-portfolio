@@ -17,13 +17,13 @@ class App extends Component {
       <div className="big-content">
         <Layout>
             <Header title="Hello World" scroll>
-                <Navigation>
+                {/* <Navigation>
                   
                     <a href="/">Link</a>
                     <a href="/">Link</a>
                     <a href="/">Link</a>
                     <a href="/">Link</a>
-                </Navigation>
+                </Navigation> */}
             </Header>
             <Drawer title="Title">
                 <Navigation>
