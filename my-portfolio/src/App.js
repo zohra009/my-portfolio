@@ -19,18 +19,18 @@ class App extends Component {
             <Header title="Hello World" scroll>
                 <Navigation>
                   
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
+                    <a href="/">About Me</a>
+                    <a href="/">Landing</a>
+                    <a href="/">Resume</a>
                     <a href="/">Link</a>
                 </Navigation>
             </Header>
             <Drawer title="Title">
                 <Navigation>
                 
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
-                    <a href="/">Link</a>
+                    <a href="/">About Me</a>
+                    <a href="/">Landing</a>
+                    <a href="/">Resume</a>
                     <a href="/">Link</a>
                 </Navigation>
             </Drawer>
