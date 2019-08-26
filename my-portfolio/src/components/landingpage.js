@@ -9,3 +9,5 @@ class Landingpage extends Component {
         )
     )
 }
+
+export default Landingpage;
