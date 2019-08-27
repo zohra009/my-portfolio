@@ -20,6 +20,9 @@ class Projects extends Component {
                     Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
                     thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
                 </CardText>
+                <CardActions border>
+                    <Button colored>Github</Button>
+                </CardActions>
                 </Card>
             )
         }else if (this.state.activeTab === 1) {
