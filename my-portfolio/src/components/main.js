@@ -1,11 +1,12 @@
 import React from 'react';
-import Landingpage from './landingpage';
+import { Switch, Route } from 'react-router-dom';
+import LandingPage from './landingpage';
 
 
-const Main = () => {
+const Main = () => (
     <Switch>
         <Route exact path="/" component={LandingPage} />
     </Switch>
-}
+);
 
 export default Main; 

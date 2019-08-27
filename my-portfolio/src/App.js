@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-// import "react-mdl/extra/material.js";
+import Main from './components/main';
 import {
     Navigation,
     Header,
@@ -35,7 +35,8 @@ class App extends Component {
                 </Navigation>
             </Drawer>
             <Content>
-                <div className="content" />
+              <div className="content" />
+              <Main />
             </Content>
         </Layout>
     </div>
