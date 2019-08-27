@@ -22,7 +22,11 @@ class Projects extends Component {
                 </CardText>
                 <CardActions border>
                     <Button colored>Github</Button>
+                    <Button colored>Demo</Button>
                 </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                    <IconButton name='share' />
+                </CardMenu>
                 </Card>
             )
         }else if (this.state.activeTab === 1) {
