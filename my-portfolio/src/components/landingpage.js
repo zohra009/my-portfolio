@@ -21,19 +21,19 @@ class Landing extends Component {
                 <div className="social-links">
 
                 {/* linkedIn  */}
-                    <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                    <a href="https://www.linkedin.com/in/zohra-anwar/" rel="noopener noreferrer" target="_blank">
                         <i className="fa fa-linkedin-square" aria-hidden="true" />
                     </a>
                 {/* Github  */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/zohra009" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
                 {/* Medium  */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-                        <i className="fa fa-medium-square" aria-hidden="true" />
+                <a href="https://medium.com/@anzohra" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-medium" aria-hidden="true" />
                     </a>
                 {/* Youtube  */}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="http://youtube.com/channel/UCFxPo6I9foNplmAwr1vFAEw/videos?view_as=subscriber" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-youtube-square" aria-hidden="true" />
                 </a>
                 </div>
