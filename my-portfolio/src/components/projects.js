@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Tabs, Tab, Grid, Cell, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 
 
@@ -12,7 +12,11 @@ class Projects extends Component {
     toggleCategories() {
         if (this.state.activeTab === 0 ) {
             return (
-                <div><h1>this is react</h1></div>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://image.shutterstock.com/image-photo/healthy-food-clean-eating-selection-260nw-722718097.jpg) center/ cover '}}>
+                    React Project #1
+                </CardTitle>
+                </Card>
             )
         }else if (this.state.activeTab === 1) {
             return (<div><h1>this is html/css</h1></div>)
