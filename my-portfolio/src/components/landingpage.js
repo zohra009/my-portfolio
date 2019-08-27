@@ -16,7 +16,7 @@ class Landing extends Component {
                 <h1>Full Stack Web Deveolper</h1>
                 <hr/>
                 <p>
-                    HTML/CSS | Bootstrap | Semantic UI| Ruby| JQuery| Sinatra| Ruby on Rails| Javascript| React| Redux |Unity | C#
+                    HTML/CSS | Bootstrap | Semantic UI | Ruby| JQuery | Sinatra | Ruby on Rails | Javascript | React | Redux |Unity | C#
                 </p>
 
                 </div>
