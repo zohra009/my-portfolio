@@ -30,3 +30,7 @@ background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, 
   font-weight: bold;
   color: white;
 }
+
+.banner-text hr {
+  
+}
