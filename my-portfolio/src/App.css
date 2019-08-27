@@ -24,3 +24,7 @@ background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, 
   margin: auto;
   border-radius: 10px; 
 }
+
+.banner-text h1 {
+  font-size: 66px;
+}
