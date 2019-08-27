@@ -8,7 +8,7 @@ import {
     Layout,
     Content
   } from "react-mdl";
-
+import { Link } from 'react-router-dom';
 
 class App extends Component {
 
@@ -19,10 +19,10 @@ class App extends Component {
             <Header title="Hello World" scroll>
                 <Navigation>
                   
-                    <a href="/">About Me</a>
-                    <a href="/">Landing</a>
-                    <a href="/">Resume</a>
-                    <a href="/">Link</a>
+                    <Link to="/">About Me</Link>
+                    <Link to="/">Landing</Link>
+                    <Link to="/">Resume</Link>
+                    <Link to="/">Link</Link>
                 </Navigation>
             </Header>
             <Drawer title="Title">
