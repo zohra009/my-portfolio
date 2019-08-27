@@ -36,3 +36,6 @@ background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, 
   width: 50%;
   margin: auto;
 }
+.banner-text p {
+  color: white;
+}

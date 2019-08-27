@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div className="big-content">
         <Layout>
-            <Header className="header-color" title="Zohra'a Portfolio" scroll>
+            <Header className="header-color" title="Zohra's Portfolio" scroll>
                 <Navigation>
                   
                     <Link to="/aboutme">About Me</Link>
