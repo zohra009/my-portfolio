@@ -27,11 +27,10 @@ class App extends Component {
             </Header>
             <Drawer title="Title">
                 <Navigation>
-                
-                    <a href="/">About Me</a>
-                    <a href="/">Landing</a>
-                    <a href="/">Resume</a>
-                    <a href="/">Link</a>
+                    <Link to="/aboutme">About Me</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/resume">Resume</Link>
+                    <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
             <Content>
