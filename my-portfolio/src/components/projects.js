@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardText, CardTitle, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
 
 
 
@@ -16,6 +16,10 @@ class Projects extends Component {
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://image.shutterstock.com/image-photo/healthy-food-clean-eating-selection-260nw-722718097.jpg) center/ cover '}}>
                     React Project #1
                 </CardTitle>
+                <CardText>
+                    Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
+                    thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
+                </CardText>
                 </Card>
             )
         }else if (this.state.activeTab === 1) {
