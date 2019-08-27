@@ -28,4 +28,5 @@ background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, 
 .banner-text h1 {
   font-size: 66px;
   font-weight: bold;
+  color: white;
 }
