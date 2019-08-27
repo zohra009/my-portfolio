@@ -8,7 +8,10 @@ class Landing extends Component {
            <div style={{width: '100%', margin: 'auto'}}> 
             <Grid className="landing-grid">
             <Cell col={12}>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwZzOUKSJxURYm5JiBw8_ytnE6PntWaMzoOyhSCvTgadacONl" />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwZzOUKSJxURYm5JiBw8_ytnE6PntWaMzoOyhSCvTgadacONl"
+                alt="avatar"
+                className="avatar-img" 
+                />
             </Cell>
             </Grid>
            </div>
