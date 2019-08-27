@@ -18,6 +18,11 @@ class Landing extends Component {
                 <p>
                     HTML/CSS | Bootstrap | Semantic UI | Ruby| JQuery | Sinatra | Ruby on Rails | Javascript | React | Redux | Unity | C#
                 </p>
+                <div className="social-links">
+                    <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-linkedin-square" aria-hidden="true" />
+                    </a>
+                </div>
 
                 </div>
             </Cell>
