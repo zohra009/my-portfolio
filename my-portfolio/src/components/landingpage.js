@@ -28,6 +28,14 @@ class Landing extends Component {
                 <a href="http://google.com" rel="noopener noreferrer" target="_blank">
                     <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
+                {/* Medium  */}
+                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                        <i className="fa fa-medium-square" aria-hidden="true" />
+                    </a>
+                {/* Youtube  */}
+                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                    <i className="fa fa-youtube-square" aria-hidden="true" />
+                </a>
                 </div>
 
                 </div>
