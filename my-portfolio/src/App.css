@@ -11,3 +11,8 @@ background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);  /* Chrome 10-
 background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
