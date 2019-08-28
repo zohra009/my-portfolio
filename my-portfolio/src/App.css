@@ -46,11 +46,24 @@ background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, 
 }
 
 .contact-grid h2 {
-  font-family: 'PT Serif', serif;
+  font-family: 'Slabo 27px', serif;
 }
 .contact-grid p {
-  font-family: 'Slabo 27px', serif;
+  font-family: 'PT Serif', serif;
   font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted #01104b;
+  width: 50%;
+  margin: auto;
+  font-family: 'PT Serif', serif;
+}
+
+.contact-list i {
+font-size: 66px;
+padding-right: 5em;
+margin: -17px 0px -7px 0px;
 }
 
 .avatar-img {
