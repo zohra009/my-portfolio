@@ -56,8 +56,8 @@ class Resume extends Component {
                     <hr style={{borderTop: '3px solid #22947'}} />
                     <h2>Experience</h2>
                     < Experience 
-                    startYear={2018}
-                    endYear="present"
+                    startYear={2019}
+                    endYear=""
                     jobName="Dress For Success"
                     jobDescription="Front-End Deveolper working to help make the website more user friendly,
                      Special Events organizer to help raise money for the women's organization, 
@@ -66,16 +66,16 @@ class Resume extends Component {
                     < Experience 
                     startYear={2012}
                     endYear={2017}
-                    jobName="Professor of Science and technology"
+                    jobName="Professor of Science and Technology"
                     jobDescription="
                     -Educator of Anatomy and Physiology, Medical Terminology, Billing and Coding, 
                     -Develop course work to ensure high passing rate of the medical assisting exam,
                     -Design an app to help students create flashcards and notes for their classes,
                     -Deveolped a science club 
-                        * Designed to encourage students to use apps to help organize thier studying habit 
+                        - Designed to encourage students to use apps to help organize thier studying habit 
                          and become more modern innovative medical caretakers
-                        * Introduced them to apps to destress before exams
-                        * Taught and recommened apps that helped with budgeting while in college."
+                        - Introduced them to apps to destress before exams
+                        -Taught and recommened apps that helped with budgeting while in college."
                     />
                     
                    </Cell>
