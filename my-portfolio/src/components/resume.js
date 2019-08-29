@@ -36,6 +36,8 @@ class Resume extends Component {
                         <p>zohra.anwar@flatironschool.com</p>
                         <h5>Web</h5>
                         <p>mywebsite.com</p>
+                        <hr style={{borderTop: '3px solid #0747bd', width: '70%'}}/>
+
 
 
 
