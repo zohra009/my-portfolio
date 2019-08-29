@@ -17,6 +17,8 @@ class Resume extends Component {
                             />
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Zohra Anwar</h2>
+                        <h4 style={{color: 'gray'}}>Full Stack Web Deveolper</h4>
+                        <hr style={{borderTop: '3px solid #833fb2'}}/>
                    </Cell>
                    <Cell className="resume-right-col" col={8}>Right Side</Cell>
 
