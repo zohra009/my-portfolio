@@ -42,7 +42,17 @@ class Resume extends Component {
                    
                    <Cell className="resume-right-col" col={8}>
                     <h2>Education</h2>
-                    <Education />
+                    <Education  
+                    endYear={2018}
+                    schoolName='Flatiron School Immersive Coding Program'
+                    schoolDescription='Software Engineering'
+                    />
+                    <Education  
+                    endYear={2012}
+                    schoolName='Hunter College'
+                    schoolDescription='Bachelors of Science in Biochemistry'
+                    />
+                    
                    </Cell>
 
                </Grid>
