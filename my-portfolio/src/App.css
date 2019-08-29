@@ -21,11 +21,14 @@
   display: flex;
 }
 
-/* resume */
+/* resume  CSS*/
+.resume-right-col {
+  background: #27221F;
+  color: white;
+}
 
 
-
-/* contacts */
+/* contacts CSS*/
 .contact-body {
   margin: auto;
   background: #11998e;  /* fallback for old browsers */
