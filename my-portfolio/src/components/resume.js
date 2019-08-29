@@ -34,7 +34,8 @@ class Resume extends Component {
                         <p>123-456-6789</p>
                         <h5>E-mail</h5>
                         <p>zohra.anwar@flatironschool.com</p>
-
+                        <h5>Web</h5>
+                        <p>mywebsite.com</p>
 
 
 
