@@ -16,9 +16,9 @@ class Resume extends Component {
                             style={{height: '200px'}} 
                             />
                         </div>
-                        <h2 style={{paddingTop: '2em'}}>Zohra Anwar</h2>
+                        <h2 style={{paddingTop: '0em'}}>Zohra Anwar</h2>
                         <h4 style={{color: 'gray'}}>Full Stack Web Deveolper</h4>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                        <hr style={{borderTop: '3px solid #833fb2', width: '90%'}}/>
                         <p> 
                         Full Stack Web Developer from Flatiron Schools Immersive Coding Program with a biochemistry
                         background. Develop practical responsive apps with optimal user experience. Have deep 
