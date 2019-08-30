@@ -28,7 +28,7 @@ class Resume extends Component {
                         engineering training, I look to cross the chasm between technology and practical application. 
                         Technically proficient in Ruby on Rails, JavaScript, React and a variety of other programming 
                         languages, I am seeking Full Stack Developer opportunities to create applications to improve 
-                        scientific research, data analytics, and teching. Inspired by creating innovative technology with a 
+                        our overall quality of life. As a graduate of the Flatiron School Software Engineering Immersive 
                         focus on quality and simplicity. 
                         </p>
                         <hr style={{borderTop: '3px solid #0747bd', width: '70%'}}/>
