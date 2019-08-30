@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
+import Skills from './skills';
+
 
 
 
@@ -78,7 +80,8 @@ class Resume extends Component {
                         -Taught and recommened apps that helped with budgeting while in college."
                     />
                     <hr style={{borderTop: '3px solid #22947'}} />
-                    <h2>Skills</h2>                    
+                    <h2>Skills</h2> 
+                    <Skills />                   
                    </Cell>
 
                </Grid>
