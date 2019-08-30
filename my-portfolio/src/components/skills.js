@@ -7,7 +7,7 @@ class Skill extends Component {
             <div>
                 <Grid>
                     <Cell col={12}> 
-                        <div style={{display: 'flex'}}></div>
+                        <div style={{display: 'flex'}}>{this.props.skill} </div>
                      </Cell>                 
                 </Grid>
             </div>
