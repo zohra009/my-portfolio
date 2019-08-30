@@ -23,7 +23,7 @@ class Projects extends Component {
                         thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
+                    <a href="https://github.com/zohra009/react_front_end" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
                         <Button colored>Demo</Button>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
