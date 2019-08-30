@@ -24,8 +24,8 @@ class Resume extends Component {
                         <h4 style={{color: 'gray'}}>Full Stack Web Deveolper</h4>
                         <hr style={{borderTop: '3px solid #0747bd', width: '70%'}}/>
                         <p> 
-                        Full Stack Web Developer from Flatiron Schools Immersive Coding Program with a biochemistry
-                        background. Develop practical responsive apps with optimal user experience. Have deep 
+                        Leveraging analytics and problem-solving skills acquired as a biochemist with software
+                        engineering training, I look to cross the chasm between technology and practical application. 
                         knowledge of Ruby, Ruby on Rails, SQL, JQuery, JavaScript, React, Redux, CSS, HTML,
                         Bootstrap, Semantic UI,Unity and C#. Discovered web development through a passion for 
                         scientific research, data analytics, and teching. Inspired by creating innovative technology with a 
