@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, ProgressBar } from 'react-mdl';
 
 class Skill extends Component {
     render () {
@@ -7,7 +7,10 @@ class Skill extends Component {
             <div>
                 <Grid>
                     <Cell col={12}> 
-                        <div style={{display: 'flex'}}>{this.props.skill} </div>
+                        <div style={{display: 'flex'}}>
+                            {this.props.skill} 
+                            <ProgressBar style={{margin: 'auto', width: '75%'}} /> 
+                        </div>
                      </Cell>                 
                 </Grid>
             </div>
