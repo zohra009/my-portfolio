@@ -27,7 +27,7 @@ class Resume extends Component {
                         Leveraging analytics and problem-solving skills acquired as a biochemist with software
                         engineering training, I look to cross the chasm between technology and practical application. 
                         Technically proficient in Ruby on Rails, JavaScript, React and a variety of other programming 
-                        Bootstrap, Semantic UI,Unity and C#. Discovered web development through a passion for 
+                        languages, I am seeking Full Stack Developer opportunities to create applications to improve 
                         scientific research, data analytics, and teching. Inspired by creating innovative technology with a 
                         focus on quality and simplicity. 
                         </p>
