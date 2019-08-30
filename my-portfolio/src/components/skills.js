@@ -7,7 +7,7 @@ class Skill extends Component {
             <div>
                 <Grid>
                     <Cell col={12}> 
-                    mycol
+                        <div style={{display: 'flex'}}></div>
                      </Cell>                 
                 </Grid>
             </div>
