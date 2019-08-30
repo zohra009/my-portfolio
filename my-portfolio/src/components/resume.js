@@ -26,7 +26,7 @@ class Resume extends Component {
                         <p> 
                         Leveraging analytics and problem-solving skills acquired as a biochemist with software
                         engineering training, I look to cross the chasm between technology and practical application. 
-                        knowledge of Ruby, Ruby on Rails, SQL, JQuery, JavaScript, React, Redux, CSS, HTML,
+                        Technically proficient in Ruby on Rails, JavaScript, React and a variety of other programming 
                         Bootstrap, Semantic UI,Unity and C#. Discovered web development through a passion for 
                         scientific research, data analytics, and teching. Inspired by creating innovative technology with a 
                         focus on quality and simplicity. 
