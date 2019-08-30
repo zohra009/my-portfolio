@@ -30,6 +30,7 @@ class Resume extends Component {
                         languages, I am seeking Full Stack Developer opportunities to create applications to improve 
                         our overall quality of life. As a graduate of the Flatiron School Software Engineering Immersive 
                         program and former college lecturer, I have further developed the ability to communicate 
+                        technical applications effectively.
                         </p>
                         <hr style={{borderTop: '3px solid #0747bd', width: '70%'}}/>
                         <h5>Address</h5>
