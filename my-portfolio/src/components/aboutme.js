@@ -16,7 +16,7 @@ class About extends Component {
                     />
            
             
-                <p style={{width: '90%', margin: 'auto', paddingTop: '2em', fontSize: '20px', fontFamily: 'Roboto Condensed'}}> 
+                <p style={{width: '100%', margin: 'auto', paddingTop: '0em', fontSize: '20px', fontFamily: 'Roboto Condensed'}}> 
                     Leveraging analytics and problem-solving skills acquired as a biochemist with 
                     software engineering training, I look to cross the chasm between technology 
                     and practical application. Technically proficient in Ruby on Rails, JavaScript, 
