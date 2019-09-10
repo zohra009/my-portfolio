@@ -138,24 +138,24 @@ class Projects extends Component {
                 <div> 
                     {/* Project 1 */}
 
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
-                        Javascript Project #1
-                    </CardTitle>
-                    <CardText>
-                        Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
-                        thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name='share' />
-                    </CardMenu>
-                    </Card>
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
+                            Javascript Project #1
+                        </CardTitle>
+                        <CardText>
+                            Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
+                            thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                        </Card>
 
-                    <div> 
+                     
                    
                     {/* Project 2 */}
 
@@ -176,7 +176,7 @@ class Projects extends Component {
                     </CardMenu>
                     </Card>
                 </div>
-                </div>
+                
                 )
         }
     }
