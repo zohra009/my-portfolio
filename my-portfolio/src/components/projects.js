@@ -94,7 +94,7 @@ class Projects extends Component {
         }else if (this.state.activeTab === 2) {
             return (
             <div className="projects-grid">
-                 {/* Project 1 */}
+                 {/* Ruby Project 1 */}
                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
                         Javascript Project #1
@@ -110,14 +110,14 @@ class Projects extends Component {
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share' />
                     </CardMenu>
-                    </Card>
+                </Card>
             </div>
             )
         }else if (this.state.activeTab === 3) {
             return (
                 
-                <div> 
-                    {/* Project 1 */}
+                <div className="projects-grid"> 
+                    {/* JS Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
                         Javascript Project #1
