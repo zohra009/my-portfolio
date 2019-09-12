@@ -33,7 +33,7 @@ class Projects extends Component {
 
                         {/* Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://losangeles.cbslocal.com/wp-content/uploads/sites/14984641/2013/07/fast-food.jpg?w=625) center/ cover '}}>
+                    <CardTitle style={{color: '#01104b', height: '176px', background: 'url( https://www.domains.co.za/templates/hostedtpl/custom/img/sitebuilder/domains-sitepro-01b.png) center/ cover '}}>
                         React Project #2
                     </CardTitle>
                     <CardText>
@@ -136,7 +136,7 @@ class Projects extends Component {
         }else if (this.state.activeTab === 4) {
             return (
                 <div> 
-                    {/* Project 1 */}
+                        {/* Project 1 */}
 
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
@@ -157,24 +157,24 @@ class Projects extends Component {
 
                      
                    
-                    {/* Project 2 */}
+                        {/* Project 2 */}
 
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
-                        Javascript Project #1
-                    </CardTitle>
-                    <CardText>
-                        Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
-                        thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>Demo</Button>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name='share' />
-                    </CardMenu>
-                    </Card>
+                        <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
+                            Javascript Project #1
+                        </CardTitle>
+                        <CardText>
+                            Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
+                            thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>Github</Button>
+                            <Button colored>Demo</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                        </Card>
                 </div>
                 
                 )
