@@ -101,7 +101,7 @@ class Projects extends Component {
                 <div className="projects-grid"> 
                     {/* JS Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
+                    <CardTitle style={{color: '#01104b', height: '176px', background: 'url( https://i.pinimg.com/originals/2f/c7/cd/2fc7cd4601cd8a579a0869d1ffc64b47.jpg) center/ cover '}}>
                         Javascript Project #1
                     </CardTitle>
                     <CardText>
