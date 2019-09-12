@@ -132,7 +132,7 @@ class Projects extends Component {
                             thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
                         </CardText>
                         <CardActions border>
-                        <a href="https://github.com/zohra009/moji-frontend/tree/zohra-final-poj-mod-3-special" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
+                        <a href="https://github.com/zohra009/Roll-ball-game" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
                         <a href="/"><Button colored>Demo</Button></a>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
