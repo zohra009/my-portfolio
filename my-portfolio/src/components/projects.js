@@ -96,7 +96,7 @@ class Projects extends Component {
             <div className="projects-grid">
                  {/* Ruby Project 1 */}
                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.sheknows.com/wp-content/uploads/2018/04/baby-zodiac.jpg) center/ cover '}}>
                         Ruby Project #1
                     </CardTitle>
                     <CardText>
@@ -105,7 +105,7 @@ class Projects extends Component {
                     </CardText>
                     <CardActions border>
                         <a href="https://github.com/zohra009/react_front_end" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
-                        <a href="/"><Button colored>Demo</Button></a>
+                        <a href="https://youtu.be/Jjk2_tPHVj0"><Button colored>Demo</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share' />
