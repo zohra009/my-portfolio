@@ -138,8 +138,8 @@ class Projects extends Component {
                    )
         }else if (this.state.activeTab === 4) {
             return (
-                <div> 
-                        {/* Project 1 */}
+                <div className="projects-grid"> 
+                        {/* Unity Project 1 */}
 
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
@@ -160,7 +160,7 @@ class Projects extends Component {
 
                      
                    
-                        {/* Project 2 */}
+                        {/* Unity Project 2 */}
 
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
