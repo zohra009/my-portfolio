@@ -124,7 +124,7 @@ class Projects extends Component {
                         {/* Unity Project 1 */}
 
                         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
+                        <CardTitle style={{color: '#fff', height: '176px', background: 'url( http://www.icanscript.com/images/jdownloads/screenshots/roll-a-ball.png) center/ cover '}}>
                             Javascript Project #1
                         </CardTitle>
                         <CardText>
