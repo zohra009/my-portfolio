@@ -71,24 +71,6 @@ class Projects extends Component {
                         <IconButton name='share' />
                     </CardMenu>
                     </Card>
-
-                    {/* HTML/CSS Project 2 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#f6f9fc', height: '176px', background: 'url(https://i.udemycdn.com/course/750x422/15285_7239_6.jpg) center/ cover '}}>
-                        HTML/CSS Project #2
-                    </CardTitle>
-                    <CardText>
-                        Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
-                        thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
-                    </CardText>
-                    <CardActions border>
-                        <a href="https://github.com/zohra009/react_front_end" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
-                        <a href="/"><Button colored>Demo</Button></a>
-                    </CardActions>
-                    <CardMenu style={{color: '#fff'}}>
-                        <IconButton name='share' />
-                    </CardMenu>
-                    </Card>
                 </div>
             )
         }else if (this.state.activeTab === 2) {
