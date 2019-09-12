@@ -73,7 +73,7 @@ class Projects extends Component {
 
                         {/* Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#01104b', height: '176px', background: 'url(https://i.udemycdn.com/course/750x422/15285_7239_6.jpg) center/ cover '}}>
+                    <CardTitle style={{color: '#f6f9fc', height: '176px', background: 'url(https://i.udemycdn.com/course/750x422/15285_7239_6.jpg) center/ cover '}}>
                         HTML/CSS Project #2
                     </CardTitle>
                     <CardText>
