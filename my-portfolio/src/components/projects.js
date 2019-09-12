@@ -104,7 +104,7 @@ class Projects extends Component {
                         thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
                     </CardText>
                     <CardActions border>
-                        <a href="https://github.com/zohra009/react_front_end" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
+                        <a href="https://github.com/zohra009/immersive-small-rails-project-dumbo-web-080618/tree/haleys_birthday" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
                         <a href="https://youtu.be/Jjk2_tPHVj0"><Button colored>Demo</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
