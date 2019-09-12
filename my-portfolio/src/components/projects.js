@@ -97,15 +97,15 @@ class Projects extends Component {
                  {/* Ruby Project 1 */}
                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
-                        Javascript Project #1
+                        Ruby Project #1
                     </CardTitle>
                     <CardText>
                         Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
                         thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>Demo</Button>
+                        <a href="https://github.com/zohra009/react_front_end" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
+                        <a href="/"><Button colored>Demo</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share' />
