@@ -13,7 +13,8 @@ class Projects extends Component {
         if (this.state.activeTab === 0 ) {
             return (
                 <div className="projects-grid">
-                    {/* Project 1 */}
+
+                    {/* React Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://media.istockphoto.com/photos/close-up-of-fast-food-snacks-and-drink-on-table-picture-id487077896?k=6&m=487077896&s=612x612&w=0&h=BQ-_Fv1sZ7_DvL4Jbto3j83efC2lvLoEdjByXy67n-Y=) center/ cover '}}>
                         React Project #1
@@ -31,7 +32,7 @@ class Projects extends Component {
                     </CardMenu>
                     </Card>
 
-                        {/* Project 2 */}
+                    {/* React Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#01104b', height: '176px', background: 'url( https://www.domains.co.za/templates/hostedtpl/custom/img/sitebuilder/domains-sitepro-01b.png) center/ cover '}}>
                         React Project #2
@@ -53,7 +54,7 @@ class Projects extends Component {
         }else if (this.state.activeTab === 1) {
             return (
                 <div className="projects-grid">
-                    {/* Project 1 */}
+                    {/* HTML/CSS Project 1 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#01104b', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
                         HTML/CSS Project #1
@@ -71,7 +72,7 @@ class Projects extends Component {
                     </CardMenu>
                     </Card>
 
-                        {/* Project 2 */}
+                    {/* HTML/CSS Project 2 */}
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#f6f9fc', height: '176px', background: 'url(https://i.udemycdn.com/course/750x422/15285_7239_6.jpg) center/ cover '}}>
                         HTML/CSS Project #2
@@ -81,8 +82,8 @@ class Projects extends Component {
                         thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
                     </CardText>
                     <CardActions border>
-                        <Button colored>Github</Button>
-                        <Button colored>Demo</Button>
+                        <a href="https://github.com/zohra009/react_front_end" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
+                        <a href="/"><Button colored>Demo</Button></a>
                     </CardActions>
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share' />
@@ -91,7 +92,8 @@ class Projects extends Component {
                 </div>
             )
         }else if (this.state.activeTab === 2) {
-            return (<div>
+            return (
+            <div className="projects-grid">
                  {/* Project 1 */}
                  <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url( https://i.udemycdn.com/course/750x422/405926_02c8_2.jpg) center/ cover '}}>
@@ -109,7 +111,8 @@ class Projects extends Component {
                         <IconButton name='share' />
                     </CardMenu>
                     </Card>
-            </div>)
+            </div>
+            )
         }else if (this.state.activeTab === 3) {
             return (
                 
