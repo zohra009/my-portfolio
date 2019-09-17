@@ -60,8 +60,7 @@ class Projects extends Component {
                         HTML/CSS Project #1
                     </CardTitle>
                     <CardText>
-                        Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
-                        thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
+                       Static HTML/CSS page with designs using ...(fill in stuff) 
                     </CardText>
                     <CardActions border>
                         <a href="https://github.com/zohra009/react_front_end" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
