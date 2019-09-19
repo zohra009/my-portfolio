@@ -60,7 +60,7 @@ class Projects extends Component {
                         HTML/CSS Project #1
                     </CardTitle>
                     <CardText>
-                       Static HTML/CSS page with designs using ...(fill in stuff) 
+                       Static HTML/CSS page that is also responsive. 
                     </CardText>
                     <CardActions border>
                         <a href="https://github.com/zohra009/react_front_end" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
