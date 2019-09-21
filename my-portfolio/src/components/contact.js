@@ -39,12 +39,7 @@ class Contact extends Component {
                                 </ListItemContent>
                             </ListItem>
                             
-                            <ListItem>
-                                <ListItemContent style={{fontSize: '30px', fontFamily: 'PT Serif'}}>
-                                    <i className="fa fa-phone-square" aria-hidden="true" />
-                                    (123)456-7896
-                                </ListItemContent>
-                            </ListItem> 
+                         
                              
                         </List>
                     </div>
