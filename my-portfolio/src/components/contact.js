@@ -38,9 +38,7 @@ class Contact extends Component {
                                     MySkypeId
                                 </ListItemContent>
                             </ListItem>
-                            
-                         
-                             
+                                                       
                         </List>
                     </div>
 
