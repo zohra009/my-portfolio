@@ -81,7 +81,7 @@ class Projects extends Component {
                         Ruby Project #1
                     </CardTitle>
                     <CardText>
-                        ZoDrinks!
+                        ZoDrinks! Let your Zodiac determine a drinks for you! Built using Ruby on Rails, HTML and CSS
                     </CardText>
                     <CardActions border>
                         <a href="https://github.com/zohra009/immersive-small-rails-project-dumbo-web-080618/tree/haleys_birthday" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
