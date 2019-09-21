@@ -81,8 +81,7 @@ class Projects extends Component {
                         Ruby Project #1
                     </CardTitle>
                     <CardText>
-                        Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
-                        thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
+                        ZoDrinks!
                     </CardText>
                     <CardActions border>
                         <a href="https://github.com/zohra009/immersive-small-rails-project-dumbo-web-080618/tree/haleys_birthday" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
