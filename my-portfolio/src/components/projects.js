@@ -103,8 +103,8 @@ class Projects extends Component {
                         Javascript Project #1
                     </CardTitle>
                     <CardText>
-                        Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
-                        thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
+                        EmojiBeatz allows users to record and play back their unique emoji sound. This was built 
+                        using JavaScript, p5, HTML and CSS.  
                     </CardText>
                     <CardActions border>
                         <a href="https://github.com/zohra009/moji-frontend/tree/zohra-final-poj-mod-3-special" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
