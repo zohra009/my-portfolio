@@ -126,8 +126,7 @@ class Projects extends Component {
                             Unity Project #1
                         </CardTitle>
                         <CardText>
-                            Looking on the go cheap food while enjoying a boozy Friyay with friends? You're in luck 
-                            thanks to DrunkFoodz App. Your favorite DrunkFoodz within thumbs reach. 
+                            Roll a ball with depth an demension!  
                         </CardText>
                         <CardActions border>
                         <a href="https://github.com/zohra009/Roll-ball-game" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
