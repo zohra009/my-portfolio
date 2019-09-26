@@ -126,7 +126,7 @@ class Projects extends Component {
                             Unity Project #1
                         </CardTitle>
                         <CardText>
-                            Roll a ball with depth an demension!  
+                            Roll a ball with depth and demension!  
                         </CardText>
                         <CardActions border>
                         <a href="https://github.com/zohra009/Roll-ball-game" rel="noopener noreferrer" target="_blank"><Button colored> Github</Button></a>
