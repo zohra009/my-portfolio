@@ -33,10 +33,7 @@ class Resume extends Component {
                         technical applications effectively.
                         </p>
                         <hr style={{borderTop: '3px solid #0747bd', width: '70%'}}/>
-                        <h5>Address</h5>
-                        <p>123 blah st New York NY 10003</p>
-                        <h5>Phone</h5>
-                        <p>123-456-6789</p>
+                        
                         <h5>E-mail</h5>
                         <p>zohra.anwar@flatironschool.com</p>
                         <h5>Web</h5>
