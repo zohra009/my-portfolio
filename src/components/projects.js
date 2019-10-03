@@ -33,7 +33,7 @@ class Projects extends Component {
                     </Card>
 
                     {/* React Project 2 */}
-                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    {/* <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#01104b', height: '176px', background: 'url( https://www.domains.co.za/templates/hostedtpl/custom/img/sitebuilder/domains-sitepro-01b.png) center/ cover '}}>
                         React Project #2
                     </CardTitle>
@@ -48,7 +48,7 @@ class Projects extends Component {
                     <CardMenu style={{color: '#fff'}}>
                         <IconButton name='share' />
                     </CardMenu>
-                    </Card>
+                    </Card> */}
                 </div>
             )
         }else if (this.state.activeTab === 1) {
