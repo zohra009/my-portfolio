@@ -50,6 +50,11 @@ class Resume extends Component {
                     />
                     <Education  
                     endYear={2012}
+                    schoolName='City College of New Yokr'
+                    schoolDescription='Post-Baclurette Program for Sciences'
+                    />
+                    <Education  
+                    endYear={2012}
                     schoolName='Hunter College'
                     schoolDescription='Bachelors of Science in Biochemistry'
                     />
