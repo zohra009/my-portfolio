@@ -151,3 +151,11 @@ margin: -17px 0px -7px 0px;
 .social-links i i i {
   color: blue;
 }
+
+
+
+@media (max-width: 600px) {
+  .mdl-cell.mdl-cell--9-col p {
+    display: absolute;
+  }
+}
