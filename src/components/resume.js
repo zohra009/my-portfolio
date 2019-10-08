@@ -62,7 +62,7 @@ class Resume extends Component {
                     <h2>Experience</h2>
                     < Experience 
                     startYear={2019}
-                    endYear=""
+                    endYear="present"
                     jobName="Self- Employed"
                     jobDescription="Front-End Deveolper working to help make the website more user friendly,
                      Special Events organizer to help raise money for the women's organization, 
