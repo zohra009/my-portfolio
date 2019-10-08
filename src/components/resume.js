@@ -64,9 +64,18 @@ class Resume extends Component {
                     startYear={2019}
                     endYear="present"
                     jobName="Self- Employed"
-                    jobDescription="Front-End Deveolper working to help make the website more user friendly,
-                     Special Events organizer to help raise money for the women's organization, 
-                     and resume revamp to help secure interviews."
+                    jobDescription="● Designed web applications using HTML, CSS, JavaScript, Bootstrap, Unity/C#, and React.
+                                    ● Designing the CSS templates for all pages on the website working with CSS Background,
+                                    positioning, text, border, margin, padding, and table.
+                                    ● Gathered JSON responses from multiple APIs, parsed the data and presented on the UI layer.
+                                    ● Implemented Responsive Design for all web applications.
+                                    ● Interacted with clients and users in gathering the user's requirements.
+                                    ● Debugged and resolved browser issues, mainly CSS.
+                                    ● Developed simple HTML login pages where the user can log in his/her credentials and log in using OAuth.
+                                    ● Worked with text editors like Visual Studio, Atom, and Sublime Text.
+                                    ● Utilized the latest front-end Technologies for layouts.
+                                    ● Wrote queries to insert, update or delete data in MYSQL database.
+                                    ● Created forms in HTML and JavaScript for collection and validation data from the user."
                     />
                     < Experience 
                     startYear={2012}
