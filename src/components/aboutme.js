@@ -13,9 +13,7 @@ class About extends Component {
                     src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwZzOUKSJxURYm5JiBw8_ytnE6PntWaMzoOyhSCvTgadacONl"
                     alt='avatar'
                     style={{height: '200px'}} 
-                    />
-           
-            
+                    />          
                 <p style={{width: '100%', margin: 'auto', paddingTop: '0em', fontSize: '20px', fontFamily: 'Roboto Condensed'}}> 
                     Leveraging analytics and problem-solving skills acquired as a biochemist with 
                     software engineering training, I look to cross the chasm between technology 
