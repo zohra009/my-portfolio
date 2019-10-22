@@ -1,15 +1,15 @@
 {
-  "main.css": "zohraanwar.tech/static/css/main.e8c020e4.chunk.css",
-  "main.js": "zohraanwar.tech/static/js/main.d04799c6.chunk.js",
-  "main.js.map": "zohraanwar.tech/static/js/main.d04799c6.chunk.js.map",
-  "runtime~main.js": "zohraanwar.tech/static/js/runtime~main.2c1e2969.js",
-  "runtime~main.js.map": "zohraanwar.tech/static/js/runtime~main.2c1e2969.js.map",
-  "static/css/2.3631032e.chunk.css": "zohraanwar.tech/static/css/2.3631032e.chunk.css",
-  "static/js/2.b6dff942.chunk.js": "zohraanwar.tech/static/js/2.b6dff942.chunk.js",
-  "static/js/2.b6dff942.chunk.js.map": "zohraanwar.tech/static/js/2.b6dff942.chunk.js.map",
-  "index.html": "zohraanwar.tech/index.html",
-  "precache-manifest.309f9ec6b7a01f87de48828854a5d0d6.js": "zohraanwar.tech/precache-manifest.309f9ec6b7a01f87de48828854a5d0d6.js",
-  "service-worker.js": "zohraanwar.tech/service-worker.js",
-  "static/css/2.3631032e.chunk.css.map": "zohraanwar.tech/static/css/2.3631032e.chunk.css.map",
-  "static/css/main.e8c020e4.chunk.css.map": "zohraanwar.tech/static/css/main.e8c020e4.chunk.css.map"
+  "main.css": "/my-portfolio/static/css/main.e8c020e4.chunk.css",
+  "main.js": "/my-portfolio/static/js/main.14072ab6.chunk.js",
+  "main.js.map": "/my-portfolio/static/js/main.14072ab6.chunk.js.map",
+  "runtime~main.js": "/my-portfolio/static/js/runtime~main.674e5ed7.js",
+  "runtime~main.js.map": "/my-portfolio/static/js/runtime~main.674e5ed7.js.map",
+  "static/css/2.3631032e.chunk.css": "/my-portfolio/static/css/2.3631032e.chunk.css",
+  "static/js/2.b6dff942.chunk.js": "/my-portfolio/static/js/2.b6dff942.chunk.js",
+  "static/js/2.b6dff942.chunk.js.map": "/my-portfolio/static/js/2.b6dff942.chunk.js.map",
+  "index.html": "/my-portfolio/index.html",
+  "precache-manifest.4e4dc86c32ae7a9fbb3c071625be615c.js": "/my-portfolio/precache-manifest.4e4dc86c32ae7a9fbb3c071625be615c.js",
+  "service-worker.js": "/my-portfolio/service-worker.js",
+  "static/css/2.3631032e.chunk.css.map": "/my-portfolio/static/css/2.3631032e.chunk.css.map",
+  "static/css/main.e8c020e4.chunk.css.map": "/my-portfolio/static/css/main.e8c020e4.chunk.css.map"
 }
