@@ -14,7 +14,7 @@ class About extends Component {
                     alt='avatar'
                     style={{height: '200px'}} 
                     />          
-                <p style={{width: '100%', margin: 'auto', paddingTop: '0em', fontSize: '20px', fontFamily: 'Roboto Condensed'}}> 
+                <p > 
                     Leveraging analytics and problem-solving skills acquired as a biochemist with 
                     software engineering training, I look to cross the chasm between technology 
                     and practical application. Technically proficient in Ruby on Rails, JavaScript, 
