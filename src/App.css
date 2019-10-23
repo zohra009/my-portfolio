@@ -17,6 +17,23 @@
   height: 100%;
 }
 
+.landing-grid .mdl-cell {
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.landing-grid img {
+  width: 63%;
+  height: auto;
+}
+
+.banner-text {
+  overflow: scroll;
+}
+
 .projects-grid {
   display: flex;
 }
@@ -26,16 +43,18 @@
 .about-body{
   margin: auto;
   background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
-  overflow: scroll;
-  height: 80vh;
-  padding: 16px;
- 
+  background: linear-gradient(270deg,  #34e89e, #0f3443);
+
+  
+  background-size: 600% 600%;
+
+  -webkit-animation: LinearGradient 60s ease infinite;
+  -moz-animation: LinearGradient 60s ease infinite;
+  animation: LinearGradient 60s ease infinite;
 }
 
 .about-body p {
@@ -53,13 +72,16 @@
 .about-grid {
   text-align: center;
   justify-content: center;
-  width: 60%;
+  width: 65%;
   height: 500px;
   background: white;
   color: black;
   border: 2px solid #a5d9b0;
   margin-bottom: 20px;
   border-radius: 10px;
+  overflow: scroll;
+  height: 80vh;
+  padding: 16px;
 }
 
 /* resume  CSS*/
@@ -93,7 +115,11 @@
   border: 2px solid #a5d9b0;
   margin-bottom: 20px;
   border-radius: 10px;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
 }
+
 
 .contact-grid h2 {
   font-family: 'Slabo 27px', serif;
@@ -134,7 +160,7 @@ margin: -17px 0px -7px 0px;
   font-weight: bold;
   color: white;
   font-family: 'Droid Sans';
-  padding-left: 37px;
+  /* padding-left: 37px; */
 }
 
 .banner-text hr {
@@ -153,8 +179,9 @@ margin: -17px 0px -7px 0px;
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
   margin: auto;
+  flex-wrap: wrap;
+  width: 176px;
 }
 
 .social-links i {
@@ -173,4 +200,20 @@ margin: -17px 0px -7px 0px;
   .mdl-cell.mdl-cell--9-col p {
     display: absolute;
   }
+}
+
+@-webkit-keyframes LinearGradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@-moz-keyframes LinearGradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+}
+@keyframes LinearGradient {
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
