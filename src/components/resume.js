@@ -17,13 +17,13 @@ class Resume extends Component {
                             <img 
                             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiwZzOUKSJxURYm5JiBw8_ytnE6PntWaMzoOyhSCvTgadacONl"
                             alt='avatar'
-                            style={{height: '200px'}} 
+                            className="avatar-img"
                             />
                         </div>
                         <h2 style={{paddingTop: '1em'}}>Zohra Anwar</h2>
-                        <h4 style={{color: 'gray'}}>Full Stack Web Deveolper</h4>
+                        <h4 style={{color: 'white'}}>Full Stack Web Deveolper</h4>
                         <hr style={{borderTop: '3px solid #0747bd', width: '70%'}}/>
-                        <p> 
+                        <p style={{color: 'white'}}> 
                         Leveraging analytics and problem-solving skills acquired as a biochemist with software
                         engineering training, I look to cross the chasm between technology and practical application. 
                         Technically proficient in Ruby on Rails, JavaScript, React and a variety of other programming 

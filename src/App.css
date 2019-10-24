@@ -1,19 +1,23 @@
-.header-color {
+body {
   background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(270deg,  #34e89e, #0f3443);
+  background-size: 600% 600%;
+
+  -webkit-animation: LinearGradient 60s ease infinite;
+  -moz-animation: LinearGradient 60s ease infinite;
+  animation: LinearGradient 60s ease infinite;
+}
+
+.avatar-img {
+  width: 160px;
+  height: auto;
+  border-radius: 29%;
+  padding-top: 5em;
 }
 
 /* Landing Page */
 .landing-grid {
-  background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
   height: 100%;
 }
 
@@ -23,38 +27,51 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
-}
-
-.landing-grid img {
-  width: 63%;
-  height: auto;
+  align-items: center;
 }
 
 .banner-text {
   overflow: scroll;
+  width: 90%; 
+  background-color: black;
+  opacity: 0.8;
+  margin: auto;
+  border-radius: 22px; 
+  padding: 14px;
 }
 
-.projects-grid {
+.banner-text h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Droid Sans';
+  /* padding-left: 37px; */
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+  font-weight: bold;
+  font-family: monospace;
   display: flex;
+  flex-direction: column;
 }
 
 /* About me CSS */
 
 .about-body{
   margin: auto;
-  background: #11998e;  /* fallback for old browsers */
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   height: 100%;
   justify-content: center;
-  background: linear-gradient(270deg,  #34e89e, #0f3443);
-
-  
-  background-size: 600% 600%;
-
-  -webkit-animation: LinearGradient 60s ease infinite;
-  -moz-animation: LinearGradient 60s ease infinite;
-  animation: LinearGradient 60s ease infinite;
 }
 
 .about-body p {
@@ -72,7 +89,7 @@
 .about-grid {
   text-align: center;
   justify-content: center;
-  width: 65%;
+  width: 75%;
   height: 500px;
   background: white;
   color: black;
@@ -82,6 +99,27 @@
   overflow: scroll;
   height: 80vh;
   padding: 16px;
+}
+
+/* projects CSS */
+
+.projects-grid {
+  display: flex;
+}
+
+.category-tabs {
+  margin-top: 48px;
+}
+
+.category-tabs .mdl-tabs__tab-bar {
+  overflow: scroll; 
+}
+
+.category-tabs .mdl-tabs__tab {
+  overflow: unset;
+  font-weight: bold;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
 }
 
 /* resume  CSS*/
@@ -95,10 +133,6 @@
 /* contacts CSS*/
 .contact-body {
   margin: auto;
-  background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -142,40 +176,6 @@ padding-right: 5em;
 margin: -17px 0px -7px 0px;
 }
 
-.avatar-img {
-  height: 250px;
-  padding-top: 5em;
-}
-
-.banner-text {
-  background-color: black;
-  opacity: 0.8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px; 
-}
-
-.banner-text h1 {
-  font-size: 56px;
-  font-weight: bold;
-  color: white;
-  font-family: 'Droid Sans';
-  /* padding-left: 37px; */
-}
-
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-.banner-text p {
-  color: white;
-  font-size: 20px;
-  padding: 1em;
-  /* font-weight: bold; */
-  font-family: 'Droid Sans';
-}
-
 .social-links {
   display: flex;
   justify-content: space-between;
@@ -194,7 +194,12 @@ margin: -17px 0px -7px 0px;
   color: blue;
 }
 
-
+@media (min-width: 500px) {
+  .social-links {
+    width: 100%;
+    max-width: 377px; 
+  }
+}
 
 @media (max-width: 600px) {
   .mdl-cell.mdl-cell--9-col p {
@@ -202,6 +207,22 @@ margin: -17px 0px -7px 0px;
   }
 }
 
+
+/* utilities  */
+.text-orange {
+  color: orange; 
+}
+
+.text-purple {
+  color: #943eff;
+}
+
+.text-red {
+  color: red;
+}
+
+
+/* keyframe animations */
 @-webkit-keyframes LinearGradient {
   0%{background-position:0% 50%}
   50%{background-position:100% 50%}

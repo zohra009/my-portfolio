@@ -13,10 +13,21 @@ class Landing extends Component {
                 className="avatar-img" 
                 />
                 <div className="banner-text">
-                <h1>Full Stack Web Deveolper</h1>
+                <h1>Full Stack Web&nbsp;Deveolper</h1>
                 <hr/>
                 <p>
-                    HTML/CSS | Bootstrap | Semantic UI | Ruby| JQuery | Sinatra | Ruby on Rails | Javascript | React | Redux | Unity | C#
+                    <span class="text-orange">HTML/CSS</span> 
+                    <span class="text-purple">Bootstrap</span>
+                    <span>Semantic UI</span>
+                    <span>Ruby</span> 
+                    <span>JQuery</span> 
+                    <span>Sinatra</span>
+                    <span class="text-red">Ruby on Rails</span>
+                    <span>Javascript</span>
+                    <span>React</span>
+                    <span>Redux</span> 
+                    <span>Unity</span>
+                    <span>C#</span>
                 </p>
                 <div className="social-links">
 
