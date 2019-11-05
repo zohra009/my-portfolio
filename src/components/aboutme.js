@@ -19,9 +19,9 @@ class About extends Component {
                     software engineering. Technically proficient in Ruby on Rails, JavaScript, 
                     React and a variety of other programming languages. Currently seeking 
                     Web Developer opportunities to create applications to improve 
-                    our overall quality of life. As a graduate of the Flatiron School Software Engineering 
+                    {/* our overall quality of life. As a graduate of the Flatiron School Software Engineering 
                     Immersive program and former college lecturer, I have further developed the 
-                    ability to communicate technical applications effectively.
+                    ability to communicate technical applications effectively. */}
                 </p>
                 </Cell>
               </Grid>
